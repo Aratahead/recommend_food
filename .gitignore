@@ -34,4 +34,4 @@ yarn-debug.log*
 
 .DS_Store
 /vendor/bundle
-/pubilc/uploads/
+/public/uploads/
