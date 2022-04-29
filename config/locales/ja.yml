@@ -2,8 +2,15 @@ ja:
   activerecord:
     models:
       food: 料理
+      like: いいね
     attributes:
       food:
         comment: コメント
         name: 料理名
         user: ユーザー
+      like:
+        user: ユーザー
+        food: 料理
+  errors:
+    messages:
+      uniquness_invalid: は同じ投稿に2回以上いいねはできません
